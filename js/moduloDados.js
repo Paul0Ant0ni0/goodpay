@@ -10,7 +10,7 @@
 const usuarios = [
     {
         id: 1,
-        nomeUsuario: "Jose-almir",
+        nomeUsuario: "jose-almir",
         senha: 12345,
         email: "jose.almir@soulcodeacademy.com",
     },
