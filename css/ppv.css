@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  
+header {
+    padding-bottom: 32px;
+  }
+  
+.container {
+      margin: 310px;
+      width: 100vh;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      flex-grow: column;
+  }
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    margin-left: 475px;
+}
+  
+hr {
+    width:50%;
+  }
+.icon {
+    font-size: 0;
+  }
+  @media (max-width:768px){
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        gap:16px;
+}
+  }
